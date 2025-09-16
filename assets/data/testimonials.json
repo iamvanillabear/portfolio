@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Colleague",
+    "title": "Senior Full-Stack Software Engineer · via LinkedIn",
+    "quote": "Really good software engineer and an amazing person to have around with her sense of humour. Always makes us laugh. She has a really good technical knowledge and never disappointed, and did I already say that she is also very adaptable? We were really surprised when she proposed to start working on our mobile apps, and didn’t let us down! Learned really fast about all the Android and iOS world and was up to speed in little time. If you add her to your team, you will be positively impressed by her skills.",
+    "avatar": "assets/img/testimonials/linkedin.png"
+  },
+  {
+    "name": "Colleague",
+    "title": "Senior Software Engineer · via LinkedIn",
+    "quote": "Nicole takes her work seriously. While her offbeat humour lights up the office, she cares about writing quality code to solve difficult problems. She has a great attention to detail, and often found problems when reviewing code that others had missed.Nicole is always open to working in an area she's unfamiliar with, and takes every opportunity to learn something new.Nicole has been a joy to work with, and I recommend her to anyone considering hiring her.",
+    "avatar": "assets/img/testimonials/linkedin.png"
+  },
+  {
+    "name": "Fiverr Client",
+    "title": "Client via Fiverr",
+    "quote": "Exceptional work, deep understanding of QA and proactive communication. Highly recommend!",
+    "avatar": "assets/img/testimonials/fiverr.png"
+  },
+  {
+    "name": "Fiverr Client",
+    "title": "Client via Fiverr",
+    "quote": "Nicole was great to work with, there was clear communication and work was delivered on the expected deadline. All the requirements were met and I will certainly reach out to Nicole again.",
+    "avatar": "assets/img/testimonials/fiverr.png"
+  },
+  {
+    "name": "Fiverr Client",
+    "title": "Client via Fiverr",
+    "quote": "Thank you, Nicole, for the outstanding work on completing the test. Your diligence and attention to detail truly made a difference. We appreciate your dedication and hard work, which continues to elevate the quality of our complex project. Excellent job!",
+    "avatar": "assets/img/testimonials/fiverr.png"
+  },
+  {
+    "name": "Fiverr Client",
+    "title": "Client via Fiverr",
+    "quote": "It was great to work with Nicole. She really knows her stuff, is polite, pays attention to detail and always responds on time. If you are looking for feedback on a project, you have found the right freelancer.",
+    "avatar": "assets/img/testimonials/fiverr.png"
+  }
+]

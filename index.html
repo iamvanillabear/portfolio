@@ -1,29 +1,386 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nicole Benfell — Senior Software Developer</title>
-  <meta name="description" content="Portfolio & articles on C#/.NET, Flutter, mobile CI/CD, and practical engineering." />
-  <link rel="icon" href="/favicon.ico">
-  <style>
-    body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,sans-serif;background:#0b0c0f;color:#e9eef3}
-    main{max-width:960px;margin:40px auto;padding:0 20px}
-    a{color:#6ee7ff}
-    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-    .card{background:#121826;border:1px solid #223;border-radius:14px;padding:18px}
-  </style>
-</head>
-<body>
-  <main>
-    <h1>Hi, I’m Nicole 👋</h1>
-    <p>I build robust C#/.NET services, Flutter apps, and automation that scales.</p>
-    <div class="grid">
-      <section class="card"><h2>Projects</h2><p>Selected work with case studies and code.</p></section>
-      <section class="card"><h2>About</h2><p>Background, skills, and what I’m into.</p></section>
-      <section class="card"><h2>Blog</h2><p>Short, useful posts for software engineers.</p></section>
-      <section class="card"><h2>Contact</h2><p><a href="mailto:nicolebenfell@outlook.com">nicolebenfell@outlook.com</a></p></section>
-    </div>
-  </main>
-</body>
+   <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <title>Nicole Benfell - Senior Software Developer</title>
+      <meta name="description" content="Senior Software Developer portfolio of Nicole Benfell – Backend, Mobile, DevOps, Automation, Cloud. Based in Christchurch, NZ.">
+      <meta name="keywords" content="Nicole Benfell, Software Developer, Backend Engineer, Flutter Developer, DevOps, Cloud, Christchurch, Portfolio">
+      <!-- Favicons -->
+      <link href="assets/img/favicon.ico" rel="icon">
+      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com" rel="preconnect">
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <!-- Vendor CSS Files -->
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+      <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+      <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+      <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      <!-- Main CSS File -->
+      <link href="assets/css/main.css" rel="stylesheet">
+      <!-- =======================================================
+         * Template Name: DevFolio
+         * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+         * Updated: Aug 07 2024 with Bootstrap v5.3.3
+         * Author: BootstrapMade.com
+         * License: https://bootstrapmade.com/license/
+         ======================================================== -->
+   </head>
+   <body class="index-page">
+      <header id="header" class="header d-flex align-items-center sticky-top">
+         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+               <img src="assets/img/logo.png" alt="">
+               <h1 class="sitename">Nicole Benfell</h1>
+            </a>
+            <nav id="navmenu" class="navmenu">
+               <ul>
+                  <li><a href="#summary" class="active">Home<br></a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#resume">Resume</a></li>
+                  <li><a href="#expertise">Expertise</a></li>
+               </ul>
+               <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+         </div>
+      </header>
+      <main class="main">
+         <!-- Hero Section -->
+         <section id="summary" class="summary section dark-background">
+            <img src="assets/img/background-img.jpg" alt="" data-aos="fade-in">
+            <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+               <h2>I am Nicole Benfell</h2>
+               <p><span class="typed" data-typed-items="Backend Engineer, Mobile App Developer, Automation Builder, Cloud Integrator"></span></p>
+            </div>
+         </section>
+         <!-- /Hero Section -->
+         <!-- About Section -->
+         <section id="about" class="about section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+               <div class="row gy-4">
+                  <div class="col-md-6">
+                     <div class="row justify-content-between gy-4">
+                        <div class="col-lg-5">
+                           <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-7 about-info">
+                           <p><strong>Name: </strong> <span>Nicole</span></p>
+                           <p><strong>Profile: </strong> <span>Senior Software Developer</span></p>
+                           <p><strong>Email: </strong> <span>nicolebenfell@outlook.com</span></p>
+                        </div>
+                     </div>
+                     <div class="skills-content skills-animation">
+                        <h5>Skills</h5>
+                        <div class="progress">
+                           <span class="skill"><span>Backend Development (C# / .NET)</span> <i class="val">Expert</i></span>
+                           <div class="progress-bar-wrap">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="progress">
+                           <span class="skill"><span>Mobile Development (Flutter / Dart)</span> <i class="val">Advanced</i></span>
+                           <div class="progress-bar-wrap">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="progress">
+                           <span class="skill"><span>Database Design & SQL</span> <i class="val">Advanced</i></span>
+                           <div class="progress-bar-wrap">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="progress">
+                           <span class="skill"><span>DevOps & Automation (CI/CD, Jenkins, Remote.It)</span> <i class="val">Advanced</i></span>
+                           <div class="progress-bar-wrap">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="progress">
+                           <span class="skill"><span>Automated Testing (Appium / Java)</span> <i class="val">Proficient</i></span>
+                           <div class="progress-bar-wrap">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="progress">
+                           <span class="skill"><span>Frontend Development (React, JavaScript / TypeScript)</span> <i class="val">Proficient</i></span>
+                           <div class="progress-bar-wrap">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="progress">
+                           <span class="skill"><span>Cloud Platforms (GCP / Azure)</span> <i class="val">Proficient</i></span>
+                           <div class="progress-bar-wrap">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="progress">
+                           <span class="skill"><span>Python (Scripting & Automation)</span> <i class="val">Proficient</i></span>
+                           <div class="progress-bar-wrap">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="progress">
+                           <span class="skill"><span>Java</span> <i class="val">Proficient</i></span>
+                           <div class="progress-bar-wrap">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="about-me">
+					  <h4>About me</h4>
+
+					  <p class="mb-3">
+						I’m a Senior Software Developer who enjoys building both reliable backend systems and modern mobile apps. 
+						Most of my experience is with <b>C#/.NET</b>, <b>SQL databases</b>, and <b>Flutter/Dart</b>, but I also spend a lot of time on 
+						<b>automation</b>, <b>DevOps</b>, and <b>cloud platforms</b> such as GCP and Azure. 
+					  </p>
+
+					  <p class="mb-3">
+						I’ve worked on projects ranging from enterprise APIs to mobile pipelines, always focusing on writing clean, maintainable code that can scale.
+					  </p>
+
+					  <p class="mb-3">
+						I focus on solving problems that make life easier for both users and teams. This includes:
+					  </p>
+
+					  <ul class="mb-3">
+						<li>Setting up automated tests with <b>Appium</b> and <b>Java</b></li>
+						<li>Creating <b>Python scripts</b> to streamline workflows</li>
+						<li>Managing deployments through <b>CI/CD pipelines</b></li>
+						<li>Working with <b>React</b> for frontend development</li>
+					  </ul>
+
+					  <p>
+						I also keep up with areas that are always in demand, such as cloud integration, data-driven reporting, and cross-platform development. 
+						Whether it’s improving backend performance, exploring new Flutter features, or building automation that saves time, I enjoy creating 
+						software that makes a real difference.
+					  </p>
+					</div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- /About Section -->
+         <!-- Resume Section -->
+         <section id="resume" class="resume section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+               <h2>Resume</h2>
+            </div>
+            <!-- End Section Title -->
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                     <h3 class="resume-title">Sumary</h3>
+                     <div class="resume-item pb-0">
+                        <h4>Nicole Benfell</h4>
+                        <p><em>Results-driven Senior Software Developer with expertise in C#/.NET, Flutter, and automation, delivering scalable backend systems, mobile applications, and cloud solutions from design through deployment.</em></p>
+                        <ul>
+                           <li>Christchurch, New Zealand</li>
+                           <li>nicolebenfell@outlook.com</li>
+                        </ul>
+                     </div>
+                     <!-- End Resume Item -->
+                     <h3 class="resume-title">Education</h3>
+                     <div class="resume-item">
+                        <h4>Postrgaduate Diploma in Information Technology</h4>
+                        <h5>2016 - 2018 (Part Time)</h5>
+                        <p><em>Eastern Institute of Technology, Napier, New Zealand</em></p>
+                     </div>
+                     <!-- End Resume Item -->
+                     <div class="resume-item">
+                        <h4>Bachelor of Computing Systems</h4>
+                        <h5>2012 - 2015</h5>
+                        <p><em>Eastern Institute of Technology, Napier, New Zealand</em></p>
+                        <p>Extracurriculars: Student Ambassador at Careers Expo</p>
+                     </div>
+                     <!-- End Resume Item -->
+                  </div>
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                     <h3 class="resume-title">Professional Experience</h3>
+                     <div class="resume-item">
+                        <h4>Senior Software Developer</h4>
+                        <h5>2022 - Present</h5>
+                        <p><em><b>Clever First Aid</b> - Christchurch, New Zealand </em></p>
+                        <ul>
+                           <li>Develop and maintain scalable backend services using C#/.NET and SQL Server to support enterprise applications</li>
+                           <li>Build and enhance cross-platform mobile applications with Flutter/Dart, improving usability and performance</li>
+                           <li>Design and implement CI/CD pipelines with Jenkins, streamlining deployments and reducing release times</li>
+                           <li>Automate testing using Appium with Java and create Python scripts to optimize workflows and reporting</li>
+                           <li>Collaborate across teams to deliver cloud-based solutions on GCP and Azure, ensuring reliability and scalability</li>
+                           <li>Contribute to frontend development with React, JavaScript, and TypeScript to extend functionality and improve user experience</li>
+                        </ul>
+                     </div>
+                     <!-- End Resume Item -->
+                     <div class="resume-item">
+                        <h4>Software Developer</h4>
+                        <h5>2015 - 2022</h5>
+                        <p><em><b>ABC Software</b> - Napier, New Zealand </em></p>
+                        <ul>
+                           <li>Modified and maintained legacy applications built with VB.NET and HTML/CSS</li>
+                           <li>Maintained and supported a web application developed in .NET C#</li>
+                           <li>Handled updates and bug fixes for a scanner application built with Xamarin in C#</li>
+                           <li>Performed database maintenance and support tasks on SQL Server databases</li>
+                           <li>Managed application releases and ensured deployments were completed accurately and on schedule</li>
+                           <li>Provided timely and effective support to both clients and the ABC Software team</li>
+                        </ul>
+                     </div>
+                     <!-- End Resume Item -->
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- /Resume Section -->
+         <!-- Services Section -->
+         <section id="expertise" class="services section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+               <h2>Expertise</h2>
+               <p>A clear overview of my technical strengths and focus areas</p>
+            </div>
+            <!-- End Section Title -->
+            <div class="container">
+               <div class="row gy-5">
+                  <!-- increased spacing with gy-5 -->
+                  <!-- Software Development -->
+                  <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                     <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-code-slash"></i></div>
+                        <h3>Software Development</h3>
+                        <p>
+                           Strong foundation in backend engineering with <b>C#/.NET</b> and <b>SQL Server</b>.  
+                           Experienced in building cross-platform mobile apps using <b>Flutter/Dart</b> and <b>Xamarin</b>.  
+                           Skilled in frontend development with <b>React</b>, <b>JavaScript</b>, and <b>TypeScript</b>.
+                        </p>
+                     </div>
+                  </div>
+                  <!-- APIs & Integrations -->
+                  <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                     <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-link-45deg"></i></div>
+                        <h3>APIs & Integrations</h3>
+                        <p>
+                           Proficient in designing and supporting <b>RESTful</b> and <b>GraphQL APIs</b>.  
+                           Secure authentication using <b>JWT</b> and <b>OAuth</b>.  
+                           Experience writing and maintaining integrations with external systems across logistics, finance, and compliance.
+                        </p>
+                     </div>
+                  </div>
+                  <!-- DevOps & Infrastructure -->
+                  <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                     <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-hdd-network"></i></div>
+                        <h3>DevOps & Infrastructure</h3>
+                        <p>
+                           CI/CD pipelines built with <b>Jenkins (Groovy)</b> and <b>Bitbucket Pipelines (YAML)</b>.  
+                           Skilled in <b>Docker containerization</b> and contributions to <b>Terraform</b> for infrastructure-as-code.  
+                           Deployments across <b>GCP</b> (including Cloud Functions) and <b>Azure</b>.  
+                           Hands-on maintenance of <b>Linux</b> and <b>Windows servers</b>.
+                        </p>
+                     </div>
+                  </div>
+                  <!-- Testing & Quality -->
+                  <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                     <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-bug"></i></div>
+                        <h3>Testing & Quality</h3>
+                        <p>
+                           Automated mobile testing with <b>Appium (Java)</b>.  
+                           Unit testing in <b>C#</b> and <b>Flutter BLoC</b>.  
+                           Integration and regression testing across projects.  
+                           Monitoring and reporting with <b>Grafana dashboards</b> and <b>SQL queries</b>.
+                        </p>
+                     </div>
+                  </div>
+                  <!-- Automation & Tools -->
+                  <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                     <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-gear"></i></div>
+                        <h3>Automation & Tools</h3>
+                        <p>
+                           Workflow automation through <b>Python</b> and <b>PowerShell scripts</b>.  
+                           Streamlined engineering processes, reporting tasks, and local developer tooling.  
+                           Strong focus on eliminating repetitive manual work and improving efficiency.
+                        </p>
+                     </div>
+                  </div>
+                  <!-- Emerging Tech -->
+                  <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                     <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-lightbulb"></i></div>
+                        <h3>Emerging Tech</h3>
+                        <p>
+                           Interest in applying <b>AI/ML</b> to workflows and applications.  
+                           Familiar with <b>cloud-based AI APIs</b> and current industry trends.  
+                           Basic understanding of <b>blockchain</b> concepts and their applications.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- /Services Section -->
+         <!-- Testimonials Section -->
+         <section id="testimonials" class="testimonials section accent-background">
+            <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+               <div class="swiper init-swiper">
+                  <script type="application/json" class="swiper-config">
+                     {
+                       "loop": true,
+                       "speed": 600,
+                       "autoplay": { "delay": 5000 },
+                       "slidesPerView": "auto",
+                       "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }
+                     }
+                  </script>
+                  <div class="swiper-wrapper" id="testimonials-wrapper">
+                     <!-- Testimonials will be loaded here dynamically -->
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer id="footer" class="footer accent-background">
+         <div class="container">
+            <div class="copyright text-center ">
+               <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights Reserved</span></p>
+            </div>
+            <div class="social-links d-flex justify-content-center">
+               <a href="mailto:nicole.benfell@outlook.com"><i class="bi bi-envelope"></i></a>
+               <a href="https://www.linkedin.com/in/nicolebenfell/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <div class="credits">
+               <!-- All the links in the footer should remain intact. -->
+               <!-- You can delete the links only if you've purchased the pro version. -->
+               <!-- Licensing information: https://bootstrapmade.com/license/ -->
+               <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+               Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+         </div>
+      </footer>
+      <!-- Scroll Top -->
+      <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <!-- Preloader -->
+      <div id="preloader"></div>
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/typed.js/typed.umd.js"></script>
+      <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <!-- Main JS File -->
+      <script src="assets/js/main.js"></script>
+   </body>
 </html>
